@@ -1,0 +1,14 @@
+p::first-line {
+    color: orange;
+    text-decoration: underline;
+}
+
+p::selection {
+    background: #21acde;
+    color: white;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
