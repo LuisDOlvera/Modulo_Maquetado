@@ -1,0 +1,39 @@
+html,
+body {
+    background: #d5e1ef;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0px;
+    padding: 50px;
+    width: 100%;
+}
+.card_container {
+    background: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, .1);
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px;
+}
+.card_container .qr_container {
+    background-color: #2f7dfa;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card_container .qr_container img {
+    max-width: 100%;
+}
+
+.card_container h1 {
+    font: bold 22px 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.card_container p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #bfc2c9;
+}
