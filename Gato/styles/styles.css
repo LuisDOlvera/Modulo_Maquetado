@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0 ;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #e1e1e1;
+}
+
+.contenedor-gato {
+    display: grid;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: repeat(3, 300px);
+    border: solid 3px #e1e1e1;
+    max-width: 920px;
+    /* padding: 5px; */
+}
+
+span {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.contenedor-gato > div {
+    border: solid 3px #e1e1e1;
+   
+}
+
+.casilla {
+    color: #e1e1e1;
+    font-size: 250px;
+    text-align: center;
+}
+
+.contenedor-gato .casilla:nth-of-type(1) span {
+    background-color: aqua;
+}
+
+.contenedor-gato .casilla:nth-of-type(2) span {
+    background-color: black;
+}
+.contenedor-gato .casilla:nth-of-type(3) span {
+    background-color: blue;
+}
+.contenedor-gato .casilla:nth-of-type(4) span {
+    background-color: red;
+}
+.contenedor-gato .casilla:nth-of-type(5) span {
+    background-color: green;
+}
+.contenedor-gato .casilla:nth-of-type(6) span {
+    background-color: pink;
+}
+.contenedor-gato .casilla:nth-of-type(7) span {
+    background-color: forestgreen;
+}
+.contenedor-gato .casilla:nth-of-type(8) span {
+    background-color: yellow;
+}
+.contenedor-gato .casilla:nth-of-type(9) span {
+    background-color: darkgoldenrod;
+}
+
+
+
+
+
